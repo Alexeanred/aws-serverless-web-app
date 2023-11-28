@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-slsazcognito-dev-122719-authRole",
+      "UnauthRoleArn": "arn:aws:iam::223320623045:role/amplify-slsazcognito-dev-122719-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::223320623045:role/amplify-slsazcognito-dev-122719-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-slsazcognito-dev-122719-deployment",
+      "UnauthRoleName": "amplify-slsazcognito-dev-122719-unauthRole",
+      "StackName": "amplify-slsazcognito-dev-122719",
+      "StackId": "arn:aws:cloudformation:us-east-2:223320623045:stack/amplify-slsazcognito-dev-122719/260bede0-8a8a-11ee-b6e3-02b04b716785",
+      "AmplifyAppId": "d268xl2sz8feop"
+    },
+    "categories": {
+      "auth": {
+        "slsazcognito2dfa344a": {}
+      }
+    }
+  }
+}

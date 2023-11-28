@@ -1,0 +1,43 @@
+.m_btm {
+    text-align: center;
+  margin-bottom: 35px;
+  }
+  .m_btm button {
+    width: 200px;
+  }
+  .d_bl{
+      display: block;
+      margin-bottom: 25px;
+  }
+  #btnal {
+    background: teal;
+    color: aqua;
+    border-radius: 8px;
+    padding: 0.88rem;
+    font-size: 0.83rem;
+    cursor: pointer;
+  }
+  #btnal.vertical_shake {
+    animation: vertical_shaking 0.37s infinite;
+  }
+  
+  @keyframes vertical_shaking {
+    0% {
+          transform: translateY(0) 
+      }
+    25% {
+          transform: translateY(10px) 
+      }
+    50% {
+          transform: translateY(-10px) 
+      }
+    70% { 
+          transform: translateY(10px) 
+      }
+      75% {
+          transform: translateX(0px)
+      }
+    100% {
+          transform: translateY(0) 
+      }
+  }

@@ -1,5 +1,9 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
 }
 
 .main {
@@ -107,6 +111,34 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.button_submit{
+  color: #fafafa;
+  background-color: red;
+}
+.button_submit:hover{
+  color: #fafafa;
+  background-color: rgb(97, 41, 41);
+}
+.contactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.formcontainer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.formcontainer h2{
+  font-size: 40px;
+}
+
+
+
 
 @media (max-width: 600px) {
   .grid {
@@ -126,4 +158,8 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.centeredLoginForm {
+  text-align: center;
 }
