@@ -1,0 +1,33 @@
+# AWSLambdaBasicExecutionRole-13090a6c-fa7f-4bbc-a4bf-81e314121f62
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "logs:CreateLogGroup",
+            "Resource": "arn:aws:logs:us-east-2:223320623045:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": [
+                "arn:aws:logs:us-east-2:223320623045:log-group:/aws/lambda/tiennd124-updateItem:*"
+            ]
+        }
+    ]
+}
+# DynamoDBUpdateItemPolicy
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "dynamodb:UpdateItem",
+            "Resource": "arn:aws:dynamodb:us-east-2:223320623045:table/tiennd124-demoDB"
+        }
+    ]
+}
